@@ -80,3 +80,8 @@ papers.forEach(paper => {
   const p = new Paper();
   p.init(paper);
 });
+
+function playAudio() {
+  const audio = document.getElementById("bgMusic");
+  audio.play();
+}
