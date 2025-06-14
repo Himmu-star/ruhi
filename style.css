@@ -71,3 +71,29 @@ p {
   
   // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
+
+/* Basic body styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Bottom-right music button styling */
+#playButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#playButton:hover {
+  background-color: #e60000;
+}
